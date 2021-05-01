@@ -3,13 +3,13 @@ package ru.job4j.converter;
 public class Converter {
 
     public static double rubleToEuro(int rubles) {
-        double kurs_euro = 70.0;
-        return rubles / kurs_euro;
+        double kursEuro = 70.0;
+        return rubles / kursEuro;
     }
 
     public static double rubleToDollar(int rubles) {
-        double kurs_dollar = 60.0;
-        return rubles / kurs_dollar;
+        double kursDollar = 60.0;
+        return rubles / kursDollar;
     }
 
     public static void main(String[] args) {
