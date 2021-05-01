@@ -4,14 +4,12 @@ public class Converter {
 
     public static double rubleToEuro(int rubles) {
         double kurs_euro = 70.0;
-        double rsl = rubles / kurs_euro;
-        return rsl;
+        return rubles / kurs_euro;
     }
 
     public static double rubleToDollar(int rubles) {
         double kurs_dollar = 60.0;
-        double rsl = rubles / kurs_dollar;
-        return rsl;
+        return rubles / kurs_dollar;
     }
 
     public static void main(String[] args) {
