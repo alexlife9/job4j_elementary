@@ -21,6 +21,6 @@ public class Converter {
         double dollar = Converter.rubleToDollar(rubles);
         boolean passedD = expectedD == euro;
         System.out.println(rubles + " рублей это " + euro + " евро при курсе 70р за 1 евро. Проверка - " + passedE);
-        System.out.println(rubles + " рублей это " + dollar + " доллар при курсе 60р за 1 доллар. Проверка -" + passedD);
+        System.out.println(rubles + " рублей это " + dollar + " доллар при курсе 60р за 1 доллар. Проверка - " + passedD);
     }
 }

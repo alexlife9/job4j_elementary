@@ -6,10 +6,10 @@ public class Point {
     }
 
     public static void main(String[] args) {
-        int x1 = 2;
-        int y1 = 4;
-        int x2 = 4;
-        int y2 = 5;
+        int x1 = 1;
+        int y1 = 1;
+        int x2 = 1;
+        int y2 = 2;
         double result = Point.distance(x1, y1, x2, y2);
         System.out.println("Расстояние между координатами (" + x1 + ", " + y1 + ") и (" + x2 + ", " + y2 + ") составляет " + result);
     }
