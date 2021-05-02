@@ -8,8 +8,8 @@ public class SqArea {
     }
 
     public static void main(String[] args) {
-        int p = 60;
-        int k = 2;
+        int p = 9;
+        int k = 3;
         double result1 = SqArea.square(p, k);
         System.out.println(" p = " + p + ", k = " + k + ", площадь = " + result1);
     }
