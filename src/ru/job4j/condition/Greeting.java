@@ -8,6 +8,5 @@ public class Greeting {
         int year = 2021;
         System.out.println(idea + " 1 мая " + year);
 
-
     }
 }
