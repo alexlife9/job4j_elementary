@@ -10,8 +10,8 @@ public class PrintEvenElements {
             );
         }
         for (int i = 0; i < numbers.length; i++) {
-            if (numbers[i] % 2 == 0) {
-                System.out.println("Четные элементы массива начиная с последнего: " + numbers[numbers.length - 1 - i]);
+            if (numbers[numbers.length - (1 + i)] % 2 == 0) {
+                System.out.println("Четные элементы массива начиная с последнего: " + numbers[numbers.length - (i + 1)]);
             }
         }
     }
