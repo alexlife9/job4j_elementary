@@ -6,7 +6,7 @@ public class Matrix {
         int[][] rsl = new int[size][size];
         for (int row = 0; row < rsl.length; row++) {
             for (int cell = 0; cell < rsl.length; cell++) {
-                rsl[row][cell] = row * cell;
+                rsl[row][cell] = (row + 1) * (cell + 1);
             }
         }
         return rsl;
