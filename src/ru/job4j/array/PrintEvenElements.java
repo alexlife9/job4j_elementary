@@ -11,7 +11,7 @@ public class PrintEvenElements {
             );
         }
 
-/*        for (int i = 0; i < numbers.length; i++) {
+        for (int i = 0; i < numbers.length; i++) {
             int temp = numbers[numbers.length - 1];
             numbers[numbers.length - 1] = numbers[numbers.length - 1 - i];
             numbers[numbers.length - 1 - i] = temp;
@@ -19,7 +19,7 @@ public class PrintEvenElements {
                     "Текущий элемент массива начиная с первого: "
                             + numbers[numbers.length - temp]
             );
-        }*/
+        }
 
         for (int i = 0; i < numbers.length; i++) {
             if ((numbers.length - (1 + i)) % 2 == 0) {
