@@ -1,8 +1,6 @@
 package ru.job4j.array;
 
 public class MatrixCheck {
-    private static int monoHorizontal;
-    private static int monoVertical;
 
     public static boolean monoHorizontal(char[][] board, int row) {
         boolean result = true;
