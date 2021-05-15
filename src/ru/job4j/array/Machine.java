@@ -3,19 +3,26 @@ package ru.job4j.array;
 import java.util.Arrays;
 
 public class Machine {
+
     public static int[] change(int money, int price) {
         int[] coins = {10, 5, 2, 1};
-        int[] rsl = new int[100]; //это массив, содержащий монеты, которыми дали сдачу
-        int moneySdacha = money - price; // сдача которую надо выдать клиенту
-        int size = 0; // это количество монет, то есть размер массива rsl
-        for (int i = 0; i < coins.length; i++) { //вычисляем из какой ячейки выдать монету
-            while (coins[i] >= moneySdacha) { // пока сдача не будет равна 0, сыпем сдачу монетами.
-            moneySdacha = moneySdacha - coins[i]; //сдача должна быть равна бабки минус прайс
-                rsl[size] = rsl[size] - size; //забираем из массива сдачи еще одну монету
-
+        int[] rsl = new int[100];
+        int sdacha = money - price;
+        int size = 0;
+        for (int coin : coins) {
+            while (sdacha >= coin) {
+                sdacha -= coin;
+                rsl[size++] = coin;
             }
-
         }
         return Arrays.copyOf(rsl, size);
     }
 }
+//6.9. Жадный алгоритм. Сдача в кофе машине
+//int[] rsl это массив, содержащий монеты, которыми даем сдачу
+//сдача которую надо выдать клиенту
+//это количество монет, то есть размер массива rsl
+//вычисляем из какой ячейки выдать монету int i = 0; i < coins.length; i++)
+//пока сдача не будет равна 0, сыпем сдачу монетами.
+//сдача должна быть равна бабки минус прайс
+//забираем из массива сдачи еще одну монету
