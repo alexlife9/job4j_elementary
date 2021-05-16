@@ -5,7 +5,6 @@ public class PsevdoKod {
         int a = 10000;
         int b = 1020;
         int c = 1070;
-
         if (a > b) {
             if (a > c) {
                 System.out.println(a);

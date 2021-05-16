@@ -3,12 +3,9 @@ package ru.job4j.other;
 class Piva {
 
     public static void main(String[] args)  {
-
         int beerNum = 99;
         String word = "бутылок";
-
         while (beerNum > 0) {
-
             System.out.print(beerNum + " " + word + " пива на стене. Ой ей ");
             System.out.println(beerNum + " " + word + " пива.");
             System.out.println("Возьми одну. Пусти её по кругу.");

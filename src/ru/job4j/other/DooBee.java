@@ -9,7 +9,6 @@ public class DooBee {
             System.out.print("Bee");
             x = x + 1;
         }
-
         if (x == x) {
             System.out.print("Do");
         }
