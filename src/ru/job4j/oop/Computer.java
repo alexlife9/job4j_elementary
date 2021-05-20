@@ -27,6 +27,6 @@ public class Computer {
         Computer computer = new Computer(true, 500, "Intel Core I7-10700K");
         computer.printInfo();
         Computer third = new Computer();
-        computer.printInfo();
+        third.printInfo();
     }
 }
