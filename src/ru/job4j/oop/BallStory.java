@@ -1,7 +1,6 @@
 package ru.job4j.oop;
 
 public class BallStory {
-
     public class Ball {
 
         public void run1(Hare hare) {
