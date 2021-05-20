@@ -1,7 +1,8 @@
 package ru.job4j.oop;
 
 public class BallStory {
-    public class Ball {
+
+    public static class Ball {
 
         public void run1(Hare hare) {
         }
@@ -13,17 +14,17 @@ public class BallStory {
         }
     }
 
-    public class Hare {
+    public static class Hare {
         public void tryEat(Ball ball) {
         }
     }
 
-    public class Wolf {
+    public static class Wolf {
         public void tryEat(Ball ball) {
         }
     }
 
-    public class Fox {
+    public static class Fox {
         public void tryEat(Ball ball) {
         }
     }
