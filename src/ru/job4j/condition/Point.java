@@ -1,4 +1,3 @@
-/*
 package ru.job4j.condition;
 
 import static java.lang.Math.sqrt;
@@ -9,10 +8,9 @@ public class Point {
     private int x;
     private int y;
 
-    public Point(int first; int second) {
+    public Point(int first, int second) {
         this.x = first;
         this.y = second;
-
     }
 
     public double distance(Point that) {
@@ -25,4 +23,4 @@ public class Point {
         double dist = a.distance(b);
         System.out.println(dist);
     }
-}*/
+}
