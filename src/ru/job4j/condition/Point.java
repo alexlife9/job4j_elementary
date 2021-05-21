@@ -1,3 +1,4 @@
+/*
 package ru.job4j.condition;
 
 import static java.lang.Math.sqrt;
@@ -24,4 +25,4 @@ public class Point {
         double dist = a.distance(b);
         System.out.println(dist);
     }
-}
+}*/

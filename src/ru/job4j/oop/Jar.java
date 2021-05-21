@@ -9,12 +9,14 @@ public class Jar {
 
     public void pour(Jar another) {
         this.value = this.value + another.value;
-        another.value = 6;
+        another.value = 2;
     }
 
     public static void main(String[] args) {
         Jar first = new Jar(10);
         Jar second = new Jar(3);
+        System.out.println("first : " + first.value + ". second : " + second.value);
+        first.pour(second);
         System.out.println("first : " + first.value + ". second : " + second.value);
         first.pour(second);
         System.out.println("first : " + first.value + ". second : " + second.value);
