@@ -2,17 +2,15 @@ package ru.job4j.condition;
 
 public class Max {
 
-    public static int add(int first, int second) {
+    public static int max(int first, int second) {
         return first > second ? first : second;
     }
 
-    public int add(int first, int second, int third) {
-        int tmp = add(second, third);
-        return add(first, tmp);
+    public static int max(int first, int second, int third) {
+        return max(first, max(second, third));
     }
 
-    public int add(int first, int second, int third, int fourth) {
-        int tmp = add(second, third, fourth);
-        return add(first, tmp);
+    public static int max(int first, int second, int third, int fourth) {
+        return max(first, max(second, max(third, fourth)));
     }
 }
