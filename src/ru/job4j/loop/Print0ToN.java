@@ -4,7 +4,7 @@ public class Print0ToN {
     public static int out(int n) {
         int out = 0;
         for (int i = 0; i < n; i++) {
-            System.out.println(out);
+            System.out.println(i);
         }
         return n;
     }
