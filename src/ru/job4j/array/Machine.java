@@ -8,6 +8,7 @@ public class Machine {
         int[] rsl = new int[100];
         int sdacha = money - price;
         int size = 0;
+        System.out.println(coins.length);
         for (int coin : coins) {
             while (sdacha >= coin) {
                 sdacha -= coin;
@@ -15,6 +16,12 @@ public class Machine {
             }
         }
         return Arrays.copyOf(rsl, size);
+    }
+
+    public static void main(String[] args) {
+        int[] coins = {10, 5, 2, 1};
+        System.out.println(coins.length);
+
     }
 }
 //6.9. Жадный алгоритм. Сдача в кофе машине
